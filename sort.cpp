@@ -71,7 +71,7 @@ int main(int argc, char *argv[])
     for (i = 0; i < N; i++)
     {cout << a[i] << " "; }
     cout << endl;
-    cout<<"Parinkite rikiavimo algoritma [isrinkimo](1),[iterpimo](2),[burbulo](3), [kruvos)](4), [salajos)](5),[spartusis](6): ";
+    cout<<"Parinkite rikiavimo algoritma [isrinkimo](1),[iterpimo](2),[burbulo](3), [kruvos)](4), [salajos)](5),[spartusis](6),[selo](7): ";
     cin>>r;
     if(r==1) selection(a,0,N-1,L,S);
     else if(r==2) insertion(a,0,N-1,L,S);
@@ -85,8 +85,8 @@ int main(int argc, char *argv[])
     cout << "Surusiuotas skaiciu masyvas yra:" << endl;
     for (i = 0; i < N; i++) cout << a[i] << " ";
     cout << endl;
-    cout << "Rusiuodamas algoritmas atlykto "<<L<<" lyginimo ir "<<S<<" sukeitimo operaciju:" << endl;
-    cout << "Ar dar karta rusiuosit? y/(betkoks) : ";
+    cout << "Rusiuodamas algoritmas atlikto "<<L<<" lyginimo ir "<<S<<" sukeitimo operaciju:" << endl;
+    cout << "Ar dar karta rusiuosti? y/(bet koks) : ";
     cin>>ts;
     if(ts=='y'){t=false;}else {t=true;}
 }
