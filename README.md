@@ -9,4 +9,4 @@ realizuoti paprasčius rūšiavimo algoritmus: **selection, insertion, bubble**:
 -insertion
 -bubble
 
-Atnaujinta main struktura ir pridetas Selo (Shell) rušiavimo algoritmas.
+Atnaujinta main struktura ir pridetas Šelo (Shell) rušiavimo algoritmas.
